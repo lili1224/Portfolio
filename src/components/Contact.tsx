@@ -30,16 +30,16 @@ export function Contact() {
       // - Web3Forms (https://web3forms.com)
       
       // Ejemplo con mailto como alternativa básica:
-      const mailtoLink = `mailto:lucia.quesada@example.com?subject=${encodeURIComponent(data.asunto)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:luciaqm2003@gmail.com?subject=${encodeURIComponent(data.asunto)}&body=${encodeURIComponent(
         `Nombre: ${data.nombre} ${data.apellidos}\nCorreo: ${data.correo}\n\nMensaje:\n${data.mensaje}`
       )}`;
       
       // Para producción, reemplaza esto con una llamada a tu servicio de email preferido:
-      // const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(data),
-      // });
+        const response = await fetch('https://formspree.io/f/mjkpqday', {
+         method: 'POST',
+         headers: { 'Content-Type': 'application/json' },
+         body: JSON.stringify(data),
+      });
       
       // Simulación de envío exitoso
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -201,7 +201,7 @@ export function Contact() {
           <div className="space-y-2 text-slate-600">
             <p>
               <Mail className="w-4 h-4 inline mr-2" />
-              Email: <a href="mailto:lucia.quesada@example.com" className="text-blue-600 hover:underline">lucia.quesada@example.com</a>
+              Email: <a href="mailto:luciaqm2003@gmail.com" className="text-blue-600 hover:underline">lucia.quesada@example.com</a>
             </p>
             <p className="text-sm">
               También puedes encontrarme en mis redes sociales en el footer de la página.
