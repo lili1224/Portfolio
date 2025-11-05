@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 import { Button } from './ui/button';
-import { ArrowRight, Briefcase, Mail } from 'lucide-react';
+import { ArrowRight, Briefcase, Mail, Download } from 'lucide-react';
 import { motion } from 'motion/react';
 import { TechLogos } from './TechLogos';
 
@@ -19,7 +19,7 @@ export function Home() {
           >
             <Avatar className="w-48 h-48 border-4 border-slate-200 shadow-lg">
               <AvatarImage 
-                src="https://images.unsplash.com/photo-1581065178026-390bc4e78dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTc2MTk1MTY5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://drive.google.com/file/d/10M423xPpCPHMjmgIlb7g_vhgW0KD4XT-/view?usp=sharing"
                 alt="Lucía Quesada Moreno"
               />
               <AvatarFallback>LQM</AvatarFallback>
@@ -50,6 +50,17 @@ export function Home() {
                   <Mail className="w-5 h-5 mr-2" />
                   Contactar
                 </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg">
+                <a 
+                  href="/curriculum.pdf" 
+                  download="Lucia_Quesada_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="w-5 h-5 mr-2" />
+                  Descargar CV
+                </a>
               </Button>
             </div>
           </motion.div>
