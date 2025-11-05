@@ -37,7 +37,7 @@ export function Footer() {
                 asChild
               >
                 <a
-                  href="www.linkedin.com/in/lucía-quesada-moreno-17b0a818b"
+                  href="https://www.linkedin.com/in/lucía-quesada-moreno-17b0a818b"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -59,22 +59,6 @@ export function Footer() {
                   aria-label="GitHub"
                 >
                   <Github className="w-5 h-5" />
-                </a>
-              </Button>
-              
-              <Button
-                variant="outline"
-                size="icon"
-                className="text-white bg-transparent border-slate-700 hover:bg-slate-800"
-                asChild
-              >
-                <a
-                  href="https://www.infojobs.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="InfoJobs"
-                >
-                  <Briefcase className="w-5 h-5" />
                 </a>
               </Button>
             </div>
