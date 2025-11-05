@@ -18,7 +18,7 @@ export function Footer() {
             <div className="flex flex-col gap-2 text-slate-300">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>lucia.quesada@example.com</span>
+                <span>luciaqm2003@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -33,11 +33,11 @@ export function Footer() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-slate-700 hover:bg-slate-800 hover:text-white"
+                className="text-white bg-transparent border-slate-700 hover:bg-slate-800"
                 asChild
               >
                 <a
-                  href="https://www.linkedin.com"
+                  href="www.linkedin.com/in/lucía-quesada-moreno-17b0a818b"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -49,11 +49,11 @@ export function Footer() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-slate-700 hover:bg-slate-800 hover:text-white"
+                className="text-white bg-transparent border-slate-700 hover:bg-slate-800"
                 asChild
               >
                 <a
-                  href="https://github.com"
+                  href="https://github.com/lili1224"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
@@ -65,7 +65,7 @@ export function Footer() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-slate-700 hover:bg-slate-800 hover:text-white"
+                className="text-white bg-transparent border-slate-700 hover:bg-slate-800"
                 asChild
               >
                 <a

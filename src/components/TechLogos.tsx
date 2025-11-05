@@ -54,16 +54,6 @@ const technologies: TechLogo[] = [
     logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
   },
   {
-    name: 'OutSystems',
-    category: 'development',
-    logoUrl: '../figma/OutSystems.svg',
-  },
-  {
-    name: 'CMD',
-    category: 'development',
-    logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg',
-  },
-  {
     name: 'MongoDB',
     category: 'development',
     logoUrl: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg',
