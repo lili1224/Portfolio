@@ -63,19 +63,21 @@ export function Home() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Graduada en Tecnología Digital y Multimedia, me especializo en el desarrollo de soluciones 
+            digitales, diseño web y gestión de contenidos. He participado en proyectos reales en empresas 
+            como NTT Data, Obeikan MDF y la UPV, integrando creatividad con tecnología. Me apasiona transformar 
+            ideas en experiencias visuales y funcionales.
           </p>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-            culpa qui officia deserunt mollit anim id est laborum.
+            He coordinado equipos en proyectos multimedia como POLIWOOD, liderando la planificación, redacción de guiones 
+            y control técnico de equipos audiovisuales. También he diseñado escenas, widgets e interfaces para directos en 
+            Twitch empleando HTML, CSS y JavaScript. Me caracterizo por mi responsabilidad, liderazgo y capacidad para 
+            trabajar en equipo.
           </p>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-            architecto beatae vitae dicta sunt explicabo.
+            Además, cuento con experiencia en diseño web con WordPress, creación de planes de redes sociales y edición de 
+            contenido audiovisual. Domino programas como Canva, Blender, OBS y Unity, así como lenguajes como Python, JavaScript, 
+            C# y MySQL. Siempre busco aprender, innovar y aportar valor en cada proyecto que emprendo.
           </p>
         </motion.div>
 
@@ -109,7 +111,7 @@ export function Home() {
           >
             <h3 className="mb-3">Habilidades</h3>
             <p className="text-slate-600">
-              Especializada en React, TypeScript, Node.js y tecnologías full-stack modernas.
+              Especializada en HTML, Python, JavaScript y tecnologías full-stack modernas.
             </p>
           </motion.div>
 
@@ -122,7 +124,7 @@ export function Home() {
           >
             <h3 className="mb-3">Compromiso</h3>
             <p className="text-slate-600">
-              Dedicada a crear código limpio, eficiente y soluciones que generen valor real.
+              Dedicada a crear código limpio, eficiente, accesibe, escalable y soluciones que generen valor real.
             </p>
           </motion.div>
         </motion.div>
