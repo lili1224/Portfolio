@@ -51,6 +51,11 @@ export function Contact() {
           `Error ${res.status}`
         );
       }
+        // Si llegamos aquí, el envío fue correcto
+        toast.success('Mensaje enviado', {
+          description: 'Gracias por contactarme. Te responderé lo antes posible.'
+        });
+        reset();
     } catch (error) {
       toast.error('Error al enviar', {
         description: 'Ha ocurrido un error. Por favor, inténtalo de nuevo.',
