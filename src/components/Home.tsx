@@ -19,7 +19,7 @@ export function Home() {
           >
             <Avatar className="w-48 h-48 border-4 border-slate-200 shadow-lg">
               <AvatarImage 
-                src="/public/media/LuciaQuesadaMoreno.JPG"
+                src="/Portfolio/media/LuciaQuesadaMoreno.JPG"
                 alt="Lucía Quesada Moreno"
               />
               <AvatarFallback>LQM</AvatarFallback>
@@ -53,7 +53,7 @@ export function Home() {
               </Button>
               <Button asChild variant="outline" size="lg">
                 <a 
-                  href="/public/media/curriculum.pdf" 
+                  href="/Portfolio/media/curriculum.pdf" 
                   download="Lucia_Quesada_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
